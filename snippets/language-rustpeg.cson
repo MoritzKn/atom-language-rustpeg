@@ -1,0 +1,16 @@
+'.source.rustpeg':
+  'use':
+    'prefix': 'use'
+    'body': 'use super::${1:Name};'
+  'grammar rules':
+    'prefix': 'rule'
+    'body': '''
+      ${1:rule_name} -> ${2:return_type}
+      \t= ${3:expression}
+    '''
+  'public grammar rules':
+    'prefix': 'prule'
+    'body': '''
+      pub ${1:rule_name} -> ${2:return_type}
+      \t= ${3:expression}
+    '''

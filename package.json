@@ -1,0 +1,25 @@
+{
+  "name": "language-rustpeg",
+  "version": "0.1.0",
+  "description": "Rust PEG language support for Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "keywords": [
+    "rust",
+    "peg",
+    "rust-peg",
+    "parser"
+  ],
+  "homepage": "https://github.com/moritzkn/atom-language-rustpeg/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moritzkn/atom-language-rustpeg.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moritzkn/atom-language-rustpeg/issues"
+  },
+  "dependencies": {}
+}

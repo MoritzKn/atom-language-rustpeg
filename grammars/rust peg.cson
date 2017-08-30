@@ -1,0 +1,17 @@
+name: 'Rust Peg'
+scopeName: 'source.rustpeg'
+fileTypes: [
+  'rustpeg'
+]
+patterns: [
+  {
+    begin: '(?<!::)\\{'
+    end: '\\}'
+    name: 'block.rustpeg'
+    contentName: 'source.embedded.rust'
+    patterns: [
+      { include: 'source.rust' }
+    ]
+  }
+  { include: 'source.rust' }
+]

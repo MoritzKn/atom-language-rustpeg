@@ -8,10 +8,10 @@ Note: This package basically just applies the rust grammar to rustpeg files.
 
 ## Install
 
-Install the package `language-rust` in Atom (Preferences -> Packages) or via Atom's package manager from a shell:
+Install the package `language-rustpeg` in Atom (Preferences -> Packages) or via Atom's package manager from a shell:
 
 ```sh
-apm install language-rust
+apm install language-rustprg
 ```
 
 ## Contributing
@@ -19,4 +19,4 @@ apm install language-rust
 Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.
 
 ## License
-This project is licensed under the terms of the MIT license. A copy of the license can be found in the root directory of the project in the file [LICENSE](./LICENSE).
+This project is licensed under the terms of the MIT license. A copy of the license can be found in the root directory of the project in the file [LICENSE.md](./LICENSE.md).

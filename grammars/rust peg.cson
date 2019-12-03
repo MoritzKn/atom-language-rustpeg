@@ -13,5 +13,10 @@ patterns: [
       { include: 'source.rust' }
     ]
   }
+  {
+    begin: '\\['
+    end: '(?<!\\\\)\\]'
+    name: 'constant.other.character-class'
+  }
   { include: 'source.rust' }
 ]
